@@ -1,0 +1,23 @@
+
+# Secrets
+.env
+.env.*
+
+# Allow an example configuration file
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE files
+.vscode/
+.idea/
+
+# Local environment files
+.streamlit/secrets.toml
